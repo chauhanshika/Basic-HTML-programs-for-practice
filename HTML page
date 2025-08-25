@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Web Page</title>
+    <style>
+        body {
+            background-color: #00e6e6;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: darkblue;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        .container {
+            border: 1px solid black;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #b3ffff;
+            width: 70%;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table, th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Web Page</h1>
+        <p>This is a sample paragraph inside a <code>&lt;div&gt;</code> container. 
+        Here’s a <span class="highlight">highlighted span</span> inside the paragraph.</p>
+        
+        <img src="https://via.placeholder.com/100" alt="Sample Image">
+
+        <p><b>Useful Links:</b></p>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+        </ul>
+
+        <h2>Sample Table</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Apples</td>
+                <td>5</td>
+                <td>300 Rs.</td>
+            </tr>
+            <tr>
+                <td>Oranges</td>
+                <td>2</td>
+                <td>50 Rs.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
