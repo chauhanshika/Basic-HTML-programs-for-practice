@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors Example</title>
+    <style>
+        /* Universal selector */
+        * {
+            background-color: gray;
+        }
+
+        /* Paragraphs */
+        p {
+            background-color: red;
+        }
+
+        /* Span inside paragraph */
+        p span {
+            background-color: yellow;
+        }
+
+        /* h3 direct child of div */
+        div > h3 {
+            background-color: orange;
+        }
+
+        /* Just coloring header text */
+        h1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Hello, World!</h1>
+        <div>
+            <p>
+                <span>This is a simple HTML document.</span>
+            </p>
+            
+            <span>
+                <h3>div parent to span parent to h3</h3>
+            </span>
+        </div>
+    </center>
+</body>
+</html>
